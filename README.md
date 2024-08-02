@@ -1,25 +1,34 @@
 # Project Title
 
-This is a simple template for creating a token on Ethereum that supports the basic operations such as minting and burning tokens.
+Getting Started with Solidity.
 
 ## Description
 
-This is a project requirement for the ETH Beginner Course for Metacrafters.
+This is a simple ERC-20 token contract written in Solidity, created as part of the MetaCrafters assessment for the "Getting Started with Solidity" module. This contract demonstrates basic Solidity concepts, including variables, data types, functions, and control structures. The contract includes the following functions:
+1. Mint - increases the total supply and balance of the specified address.
+2. Burn - decreases the total suppy and balance of the specified address.
 
 ## Getting Started
 
+To get started with this project, you can use Remix, an online Solidity IDE. Follow these steps:
+
 ### Installing
 
-You can download the program or file from GitHub using the download button.
+To get stated with the project, you'll need too have Remix open it is a web-based Solidity IDE that allows the user to write, deploy, andd test smart contracts.
+- Open Remix in your web browser: https://remix.ethereum.org/
+- Create a new Solidity file by clicking on the "Create" button.
+- Copy and paste the contract code into the new file.
+
+Instead of copying and pasting the contract code, you can also import it directly.
+- Download the file and click "Open a File from your File System" to import the contract code into Remix.
+  
+Once you've importeed the contract code, you can proceed with compiling and deploying the contract.
 
 ### Executing program
 
-The program or file can be run using this website https://remix.ethereum.org/. 
+To deploy and interact with the contract, follow these steps:
 
-To run the program:
-  1. Open the website https://remix.ethereum.org/.
-  2. Copy and paste the codes, or you may upload the MyToken.sol file.
-  3. Click on the Solidity Compiler on the right side of the page.
-  4. Click on the Compile MyToken.sol
-  5. Go to the Deploy and Run Transactions button on the right side of the page.
-  6. Click on Deploy and scroll down to the page where you are able to interact with the mint and burn functions.
+1. Compile the contract by clicking on the "Compile" button in the Remix Solidity compiler.
+2. Deploying the contract to the Remix VM by clicking on the "Deploy" button.
+3. Interact with the contract using the Remix console.
+
